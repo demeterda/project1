@@ -8,6 +8,7 @@ html {
 body {
     margin: 0;
     font-family: "Lato", sans-serif;
+    height: 300vh;
 }
 
 header {
@@ -21,5 +22,13 @@ header {
     h1 {
         font-size: 3.8rem;
         font-weight: bold;
+        text-align: center;
+        line-height: 5rem;
+        @media screen and (min-width:800px) {
+            font-size: 6rem;
+        }
+        @media screen and (min-width:1200px) {
+            font-size: 8rem;
+        }
     }
 }
